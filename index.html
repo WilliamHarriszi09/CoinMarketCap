@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<!-- saved from url=(0074)https://colorlib.com/etc/tb/Table_Highlight_Vertical_Horizontal/index.html -->
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>BTC</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="./assets/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="./assets/css/main.css">
+  <meta name="robots" content="noindex, follow">
+  <style>
+    /* tbody .column100.column1:first-child {
+        background-color: #57b846!important;
+        color: #fff;
+      } */
+    .percent-up {
+      animation-name: ani_percent_up;
+      animation-duration: 2s;
+      animation-delay: 0s;
+      animation-iteration-count: infinite;
+    }
+
+    @keyframes ani_percent_up {
+      0% {
+        background-color: #0fbc54;
+      }
+
+      50% {
+        background-color: #3ef563;
+      }
+
+      100% {
+        background-color: #0fbc54;
+      }
+    }
+
+    .percent-down {
+      animation-name: ani_percent_down;
+      animation-delay: 0s;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+    }
+
+    @keyframes ani_percent_down {
+      0% {
+        background-color: #ef735a;
+      }
+
+      50% {
+        background-color: #b93b21;
+      }
+
+      100% {
+        background-color: #ef735a;
+      }
+    }
+
+    .tr-underline:not(:last-child) td {
+      border-bottom: 1px solid #fff !important;
+    }
+
+    tbody tr.row100 {
+      cursor: pointer;
+    }
+
+    tbody tr.row100 td.column100 {
+      padding: 0px !important;
+      border: 1px solid #a3a1a1!important;
+    }
+
+    tbody tr.row100 td.column100 td {
+      border: 1px solid #a3a1a1!important;
+    }
+
+    tbody tr.row100 td.column100 .td-row {
+      height: 30px;
+      display: flex;
+    }
+
+    tbody tr.row100 td.column100 .td-md-3 {
+      width: 25% !important;
+    }
+
+    tbody tr.row100 td.column100 .tp-0 {
+      background-color: #ee3cd9;
+    }
+
+    tbody tr.row100 td.column100 .tp-1 {
+      background-color: #b5e81d;
+    }
+
+    #mttContainer {
+      left: 0 !important;
+      top: 0 !important;
+      position: fixed !important;
+      z-index: 100000200 !important;
+      width: 1000px !important;
+      margin-left: -500px !important;
+      background-color: #00000000 !important;
+      pointer-events: none !important;
+    }
+
+    .bootstrapiso .tooltip {
+      width: auto !important;
+      height: auto !important;
+      background: transparent !important;
+      border: none !important;
+      border-radius: 0px !important;
+      visibility: visible !important;
+      pointer-events: none !important;
+    }
+
+    .bootstrapiso .tooltip-inner {
+      font-size: 14px !important;
+      max-width: 800px !important;
+      text-align: center !important;
+      backdrop-filter: blur(2px) !important;
+      background-color: #000000b8 !important;
+      color: #ffffffff !important;
+      border-radius: .25rem !important;
+      pointer-events: none !important;
+    }
+
+    .bootstrapiso .arrow::before {
+      border-top-color: #000000b8 !important;
+    }
+
+    #this_year {
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="limiter">
+    <div class="container-table100">
+      <div class="wrap-table100">
+        <h1 id="this_year"></h1>
+        <div class="table100 ver5 m-b-110">
+          <table data-vertable="ver5">
+            <thead></thead>
+            <tbody></tbody>
+          </table>
+          <button class="btn" id="refresh_btn">Refresh</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="./assets/javascript/jquery-3.2.1.min.js"></script>
+  <script src="./assets/javascript/bootstrap.min.js"></script>
+  <script src="./assets/javascript/custom.js"></script>
+</body>
+
+</html>
